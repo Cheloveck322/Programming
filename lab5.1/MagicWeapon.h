@@ -2,6 +2,7 @@
 #define MAGICWEAPON_H
 
 #include <string>
+#include "Gun.h"
 
 class Gun;
 
