@@ -4,6 +4,8 @@
 #include <string>
 #include <string_view>
 
+class MagicWeapon;
+
 namespace weapons
 {
     enum type
@@ -23,9 +25,16 @@ public:
 
     Gun();
 
+    friend bool operator<(const Gun& mWeapon, const MagicWeapon& weapon);
+    friend bool operator>(const Gun& mWeapon, const MagicWeapon& weapon);
+
+    friend bool operator<(const Gun& mWeapon, const Gun& weapon);
+    friend bool operator>(const Gun& mWeapon, const Gun& weapon);
+    
+
     std::string_view getName() const;
 
-    int getDamage() const;
+    virtual double getDamage() const;
 
     double getWeight() const;
 
@@ -41,7 +50,7 @@ public:
 
     int sumWeight(const Gun& gun) const;
 
-    ~Gun();
+    virtual ~Gun();
 
 private:
     std::string m_name{};

@@ -2,6 +2,7 @@
 #include <string>
 #include <string_view>
 #include "Gun.h"
+#include "MagicWeapon.h"
 
 Gun::Gun(const std::string& name, int damage, double weight, weapons::type type)
     : m_name { name }, m_damage { damage }, m_weight { weight }, m_type { type }
@@ -18,7 +19,7 @@ std::string_view Gun::getName() const
     return m_name;
 }
 
-int Gun::getDamage() const
+double Gun::getDamage() const
 {
     return m_damage;
 }
@@ -63,3 +64,9 @@ Gun::~Gun()
     std::cout << m_name << ' ' << m_damage << ' ' << m_weight << '\n';
     std::cout << "The gun is deleting.\n";
 }
+
+bool operator<(const Gun& mWeapon, const MagicWeapon& weapon) { return mWeapon.getDamage() < weapon.getDamage(); }
+bool operator>(const Gun& mWeapon, const MagicWeapon& weapon) { return mWeapon.getDamage() > weapon.getDamage(); }
+
+bool operator<(const Gun& mWeapon, const Gun& weapon) { return mWeapon.getDamage() < weapon.getDamage(); }
+bool operator>(const Gun& mWeapon, const Gun& weapon) { return operator<(weapon, mWeapon); }

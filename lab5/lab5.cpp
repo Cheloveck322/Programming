@@ -38,8 +38,12 @@ int main()
     player.printCharacteristics();
 
     MagicWeapon mWeapon{ "wisdom stick", 38, 1.3, weapons::onehanded, 14.3 };
+    Gun asd { "asd", 48, 1, weapons::onehanded };
 
     std::cout << mWeapon.getAddDamage() << '\n';
+    std::cout << mWeapon.getDamage() << '\n';
+
+    std::cout << (asd > mWeapon ? "asd more than mWeapon\n" : "asd less than mWeapon\n");
 
     return 0;
 }

@@ -1,7 +1,7 @@
 #ifndef MAGICWEAPON_H
 #define MAGICWEAPON_H
 
-#include "Gun.h"
+class Gun;
 
 class MagicWeapon : public Gun
 {
@@ -12,8 +12,18 @@ public:
 
     double getAddDamage() const;
 
+    double getDamage() const override;
+
+    ~MagicWeapon() override;
+
 private:
     double m_addDamage{};
+
+    friend bool operator<(const MagicWeapon& mWeapon, const Gun& weapon);
+    friend bool operator>(const MagicWeapon& mWeapon, const Gun& weapon);
+
+    friend bool operator<(const MagicWeapon& mWeapon, const MagicWeapon& weapon);
+    friend bool operator>(const MagicWeapon& mWeapon, const MagicWeapon& weapon);
 };
 
 #endif
