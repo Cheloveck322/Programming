@@ -1,0 +1,9 @@
+/home/cheloveck/qt/Window/build/Desktop-Debug/CMakeFiles/Window.dir
+/home/cheloveck/qt/Window/build/Desktop-Debug/CMakeFiles/edit_cache.dir
+/home/cheloveck/qt/Window/build/Desktop-Debug/CMakeFiles/rebuild_cache.dir
+/home/cheloveck/qt/Window/build/Desktop-Debug/CMakeFiles/list_install_components.dir
+/home/cheloveck/qt/Window/build/Desktop-Debug/CMakeFiles/install.dir
+/home/cheloveck/qt/Window/build/Desktop-Debug/CMakeFiles/install/local.dir
+/home/cheloveck/qt/Window/build/Desktop-Debug/CMakeFiles/install/strip.dir
+/home/cheloveck/qt/Window/build/Desktop-Debug/CMakeFiles/Window_autogen_timestamp_deps.dir
+/home/cheloveck/qt/Window/build/Desktop-Debug/CMakeFiles/Window_autogen.dir
