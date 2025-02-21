@@ -1,0 +1,1 @@
+/usr/bin/g++ -DQT_QML_DEBUG -g -Wl,--dependency-file=CMakeFiles/helloTerminal.dir/link.d CMakeFiles/helloTerminal.dir/helloTerminal_autogen/mocs_compilation.cpp.o CMakeFiles/helloTerminal.dir/main.cpp.o -o helloTerminal  /usr/lib/x86_64-linux-gnu/libQt6Core.so.6.4.2
