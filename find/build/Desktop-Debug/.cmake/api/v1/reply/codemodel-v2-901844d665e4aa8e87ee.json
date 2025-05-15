@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-33b1c8a9cea567b4b40f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "find",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "find::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-find-Debug-38a11783307ec89871c7.json",
+					"name" : "find",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "find_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-find_autogen-Debug-116339fa101a3666f1e5.json",
+					"name" : "find_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "find_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-find_autogen_timestamp_deps-Debug-8e0da8e537d4612d1336.json",
+					"name" : "find_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/cheloveck/qt/find/build/Desktop-Debug",
+		"source" : "/home/cheloveck/qt/find"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 8
+	}
+}
