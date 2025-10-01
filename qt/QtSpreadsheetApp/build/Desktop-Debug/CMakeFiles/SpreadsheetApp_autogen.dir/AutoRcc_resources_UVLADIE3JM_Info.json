@@ -1,0 +1,34 @@
+{
+	"BUILD_DIR" : "/home/cheloveck/programming/qt/QtSpreadsheetApp/build/Desktop-Debug/SpreadsheetApp_autogen",
+	"CMAKE_BINARY_DIR" : "/home/cheloveck/programming/qt/QtSpreadsheetApp/build/Desktop-Debug",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/cheloveck/programming/qt/QtSpreadsheetApp/build/Desktop-Debug",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/cheloveck/programming/qt/QtSpreadsheetApp",
+	"CMAKE_SOURCE_DIR" : "/home/cheloveck/programming/qt/QtSpreadsheetApp",
+	"CROSS_CONFIG" : false,
+	"GENERATOR" : "Unix Makefiles",
+	"INCLUDE_DIR" : "/home/cheloveck/programming/qt/QtSpreadsheetApp/build/Desktop-Debug/SpreadsheetApp_autogen/include",
+	"INPUTS" : 
+	[
+		"/home/cheloveck/programming/qt/QtSpreadsheetApp/images/new.png",
+		"/home/cheloveck/programming/qt/QtSpreadsheetApp/images/save.png",
+		"/home/cheloveck/programming/qt/QtSpreadsheetApp/images/open.png",
+		"/home/cheloveck/programming/qt/QtSpreadsheetApp/images/find.png",
+		"/home/cheloveck/programming/qt/QtSpreadsheetApp/images/sort.png",
+		"/home/cheloveck/programming/qt/QtSpreadsheetApp/images/gotocell.png",
+		"/home/cheloveck/programming/qt/QtSpreadsheetApp/images/copy.png",
+		"/home/cheloveck/programming/qt/QtSpreadsheetApp/images/icon.png",
+		"/home/cheloveck/programming/qt/QtSpreadsheetApp/images/paste.png",
+		"/home/cheloveck/programming/qt/QtSpreadsheetApp/images/cut.png"
+	],
+	"LOCK_FILE" : "/home/cheloveck/programming/qt/QtSpreadsheetApp/build/Desktop-Debug/CMakeFiles/SpreadsheetApp_autogen.dir/AutoRcc_resources_UVLADIE3JM_Lock.lock",
+	"MULTI_CONFIG" : false,
+	"OPTIONS" : [ "-name", "resources" ],
+	"OUTPUT_CHECKSUM" : "UVLADIE3JM",
+	"OUTPUT_NAME" : "qrc_resources.cpp",
+	"RCC_EXECUTABLE" : "/usr/lib/qt6/libexec/rcc",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "/home/cheloveck/programming/qt/QtSpreadsheetApp/build/Desktop-Debug/CMakeFiles/SpreadsheetApp_autogen.dir/AutoRcc_resources_UVLADIE3JM_Used.txt",
+	"SOURCE" : "/home/cheloveck/programming/qt/QtSpreadsheetApp/src/resources.qrc",
+	"USE_BETTER_GRAPH" : false,
+	"VERBOSITY" : 0
+}

@@ -1,0 +1,29 @@
+
+# Consider dependencies only in project.
+set(CMAKE_DEPENDS_IN_PROJECT_ONLY OFF)
+
+# The set of languages for which implicit dependencies are needed:
+set(CMAKE_DEPENDS_LANGUAGES
+  )
+
+# The set of dependency files which are needed:
+set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "" "mainWindow_autogen/timestamp" "custom" "mainWindow_autogen/deps"
+  "/home/cheloveck/programming/qt/QtSpreadsheetApp/main.cpp" "CMakeFiles/mainWindow.dir/main.cpp.o" "gcc" "CMakeFiles/mainWindow.dir/main.cpp.o.d"
+  "/home/cheloveck/programming/qt/QtSpreadsheetApp/build/Desktop-Debug/mainWindow_autogen/EWIEGA46WW/qrc_resources.cpp" "CMakeFiles/mainWindow.dir/mainWindow_autogen/EWIEGA46WW/qrc_resources.cpp.o" "gcc" "CMakeFiles/mainWindow.dir/mainWindow_autogen/EWIEGA46WW/qrc_resources.cpp.o.d"
+  "/home/cheloveck/programming/qt/QtSpreadsheetApp/build/Desktop-Debug/mainWindow_autogen/mocs_compilation.cpp" "CMakeFiles/mainWindow.dir/mainWindow_autogen/mocs_compilation.cpp.o" "gcc" "CMakeFiles/mainWindow.dir/mainWindow_autogen/mocs_compilation.cpp.o.d"
+  "/home/cheloveck/programming/qt/QtSpreadsheetApp/spreadsheet.cpp" "CMakeFiles/mainWindow.dir/spreadsheet.cpp.o" "gcc" "CMakeFiles/mainWindow.dir/spreadsheet.cpp.o.d"
+  "/home/cheloveck/programming/qt/QtSpreadsheetApp/table.cpp" "CMakeFiles/mainWindow.dir/table.cpp.o" "gcc" "CMakeFiles/mainWindow.dir/table.cpp.o.d"
+  "" "mainWindow" "gcc" "CMakeFiles/mainWindow.dir/link.d"
+  )
+
+# Targets to which this target links which contain Fortran sources.
+set(CMAKE_Fortran_TARGET_LINKED_INFO_FILES
+  )
+
+# Targets to which this target links which contain Fortran sources.
+set(CMAKE_Fortran_TARGET_FORWARD_LINKED_INFO_FILES
+  )
+
+# Fortran module output directory.
+set(CMAKE_Fortran_TARGET_MODULE_DIR "")
